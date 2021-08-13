@@ -1,34 +1,5 @@
 import Foundation
 import Glibc
-/*
-struct StackInt {
-    private var myArray: [Int] = []
-    
-    mutating func push(_ element: Int) {
-        myArray.append(element)
-    }
-    
-    mutating func pop() -> Int? {
-        return myArray.popLast()
-    }
-    
-    func peek() -> Int {
-       guard let topElement = myArray.last else {
-        return 0
-       }
-        return topElement
-    }
-}  
-
-var s  = StackInt()
-s.push(1)
-s.push(2)
-var top = s.peek()
-print(top)
-s.pop()
-print(s)
-*/
-
 
 print("Press 1 For Infix expression")
 print("Press 2 For Post expression")
@@ -45,7 +16,6 @@ if input1 == 1 {
 else{
 	print("Enter the post expression")  
 }
-
 
 
 //Infix evaluation
