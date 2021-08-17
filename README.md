@@ -1,1 +1,1 @@
-# Infix & Psotfic expression-calculator-in-swift
+# Infix & Postfix expression-calculator-in-swift
